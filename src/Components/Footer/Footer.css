@@ -1,0 +1,30 @@
+.footer{
+    color: #fff;
+    background-color: rgb(57, 55, 55);
+    padding: 100px 0px;
+    margin: 10px auto;
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+/*------------- media query ------------*/
+
+@media(max-width: 700px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+}
